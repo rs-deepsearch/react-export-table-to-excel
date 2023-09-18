@@ -23,6 +23,10 @@
     "start:dev": "react-scripts start",
     "publish:npm": "rm -rf lib && npm run build && npm publish --access public"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "author": "Rafael Seifert",
   "license": "ISC",
   "devDependencies": {
